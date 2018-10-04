@@ -61,6 +61,10 @@ h5 {
   margin-left: 16%;
 }
 
+.collection {
+  height: 292px;
+}
+
 .collection.collapsible.erope {
   height: 292px;
 }
@@ -72,6 +76,7 @@ h5 {
 
 #p-korea {
   padding-left: 0px;
+  margin: 4px;
 }
 
 /* buy */
@@ -149,11 +154,17 @@ h5 {
 }
 
 .section-testimonial .row {
-  padding-top: 30px !important;
+  margin: 0px;
+  /* padding-top: 10px !important; */
 }
 
 .carousel-item p {
   font-weight: 500;
+}
+
+#testimonial {
+  max-height: 350px;
+  overflow: hidden;
 }
 
 /* .ig {
@@ -228,4 +239,19 @@ h5 {
     filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
     padding-top: 20px;
   }
+  .caption.right-align.europe h3 {
+    padding-top: 200px;
+  }
+
+  .caption.center-align.makah h3 {
+    padding-top: 230px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+}
+
+.collection {
+  /* height: 290px; */
+  /* width: 200px !important; */
 }
