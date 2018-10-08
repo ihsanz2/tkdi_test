@@ -1,8 +1,3 @@
-/* About */
-/* .about-img {
-  margin-left: 3%;
-} */
-
 h3,
 h5 {
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
@@ -12,7 +7,7 @@ h5 {
   padding-right: 30px;
 }
 
-/* Logo */
+/* ======================================Logo */
 .brand-logo {
   margin-top: 0.5%;
   margin-left: 2.5%;
@@ -33,7 +28,7 @@ h5 {
   padding-top: 10%;
 }
 
-/* benefit */
+/*======================================== benefit */
 
 .benefit h3 {
   padding-top: 2%;
@@ -52,7 +47,6 @@ h5 {
 }
 
 .collection {
-  /* height: 290px; */
   width: 65%;
   margin-left: 16%;
 }
@@ -71,7 +65,6 @@ h5 {
 
 .collapsible-header:hover {
   color: red;
-  /* padding: 0 3rem !important; */
 }
 
 #p-korea {
@@ -79,7 +72,7 @@ h5 {
   margin: 4px;
 }
 
-/* buy */
+/*================================================ buy */
 .buy h4 {
   padding-top: 20px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
@@ -88,15 +81,6 @@ h5 {
 .row-buy {
   padding-bottom: 15px;
 }
-
-/* .row-buy {
-  padding-top: 3%;
-} */
-
-/* .row-buy img {
-  height: 50px;
-  width: 50px;
-} */
 
 .purcase-toped img {
   filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
@@ -113,14 +97,12 @@ h5 {
 }
 .purcase-mcash img {
   filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .btn {
   margin-top: 4.5% !important;
 }
-
-/* testimoni */
 
 .circle.responsive-img {
   height: 80px;
@@ -136,14 +118,8 @@ h5 {
 }
 
 .media p {
-  /* padding-top: 17px; */
   font-size: 12px;
 }
-/* .media img {
-  height: 30px;
-  width: 30px;
-  margin-top: 20px;
-} */
 
 #contact h4 {
   padding-left: 4%;
@@ -155,7 +131,6 @@ h5 {
 
 .section-testimonial .row {
   margin: 0px;
-  /* padding-top: 10px !important; */
 }
 
 .carousel-item p {
@@ -167,18 +142,7 @@ h5 {
   overflow: hidden;
 }
 
-/* .ig {
-  padding-bottom: 15px !important;
-}
-.wa {
-  padding-bottom: 15px !important;
-}
-
-.fb {
-  padding-bottom: 15px !important;
-} */
-
-/* small screen */
+/*======================================= small screen */
 @media only screen and (max-width: 600px) {
   .brand-logo {
     margin-top: 0.5%;
@@ -208,7 +172,7 @@ h5 {
   }
 
   #p-korea {
-    padding-left: 25px;
+    padding-left: 0px;
   }
 
   .row-buy {
@@ -250,8 +214,5 @@ h5 {
 
 @media (min-width: 601px) and (max-width: 700px) {
 }
-
 .collection {
-  /* height: 290px; */
-  /* width: 200px !important; */
 }
